@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: #f7f7f7;
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  background: #222;
+  color: #fff;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar .logo {
+   display: flex;
+            align-items: center;
+            font-family: 'Orbitron', monospace;
+            font-weight: 900;
+            font-size: 1.8rem;
+            color: #00d4ff;
+            text-shadow: 0 0 10px rgba(0, 212, 255, 0.5);
+        }
+
+        .logo-icon {
+            width: 40px;
+            height: 40px;
+            margin-right: 10px;
+            background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            color: white;
+            font-size: 1.2rem;
+        }
+        .nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.back-btn, .logout-btn { padding: 8px 14px; border-radius: 6px; color: white; font-weight: bold; text-decoration: none; border: none; cursor: pointer; }
+.back-btn { background: #3498db; }
+.back-btn:hover { background: #217dbb; }
+.logout-btn { background: #e74c3c; }
+.logout-btn:hover { background: #c0392b; }
+
+        
+.navbar button {
+  background: #ff6b6b;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+}
+.navbar button:hover {
+  background: #ff5252;
+}
+
+/* Main Container */
+.fun-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: center;
+}
+.fun-container h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+.fun-container p {
+  margin-bottom: 20px;
+  color: #555;
+}
+
+/* Activities */
+.activities {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.activities .activity {
+  padding: 10px 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background: #f1f1f1;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.3s;
+}
+.activities .activity:hover {
+  background: #e6e6e6;
+  transform: scale(1.05);
+}
+
+/* Action Buttons */
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+.actions .btn {
+  border: none;
+  padding: 12px 18px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.actions .find {
+  background: #20c997;
+  color: white;
+}
+.actions .find:hover {
+  background: #17a589;
+}
+.actions .meetup {
+  background: #ffb84d;
+  color: white;
+}
+.actions .meetup:hover {
+  background: #ffa31a;
+}
+.actions .facebook {
+  background: #ff6b6b;
+  color: white;
+}
+.actions .facebook:hover {
+  background: #ff5252;
+}
+
+.activity.active {
+  background: #4ecdc4;
+  color: #fff;
+  transform: scale(1.03);
+  box-shadow: 0 6px 14px rgba(0,0,0,.12);
+}

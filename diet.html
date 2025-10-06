@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diet Plans - FitFun </title>
+  <link rel="stylesheet" href="diet.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">
+      <span class="logo-icon">FF</span> FitFun 
+    </div>
+    <div class="nav-actions">
+      <a href="fit.html" class="back-btn">⬅ Back</a>
+      <button id="logoutBtn" class="logout-btn">Logout</button>
+    </div>
+  </nav>
+
+  <!-- Main Diet Section -->
+  <main class="container">
+  <h1><i class="fa-solid fa-utensils"></i> Diet Plans</h1>
+
+  <!-- Tabs -->
+  <div class="tabs">
+    <button class="tab-btn active" data-target="weight">🥗 Weight Loss</button>
+    <button class="tab-btn" data-target="muscle">🍗 Muscle Gain</button>
+    <button class="tab-btn" data-target="balanced">🥘 Balanced Diet</button>
+  </div>
+
+  <!-- Diet Content -->
+  <section id="weight" class="diet-card tab-content active">
+    <h2>🥗 Weight Loss Plan</h2>
+    <ul>
+      <li><b>6:30 AM:</b> Warm water + lemon, 5 almonds</li>
+      <li><b>8:00 AM:</b> Oats with skim milk + 2 boiled eggs</li>
+      <li><b>11:00 AM:</b> 1 apple/orange, green tea</li>
+      <li><b>1:00 PM:</b> Brown rice/quinoa + dal + chicken/fish OR tofu + salad</li>
+      <li><b>4:30 PM:</b> Green tea + 10 almonds</li>
+      <li><b>6:00 PM:</b> 1 banana or 2 dates (Pre-Workout)</li>
+      <li><b>8:00 PM:</b> Soup + grilled veggies + lean protein</li>
+    </ul>
+    <p><b>Precautions:</b> Avoid sugar, fried foods, sodas. Stay hydrated.</p>
+  </section>
+
+  <section id="muscle" class="diet-card tab-content">
+    <h2>🍗 Muscle Gain Plan</h2>
+    <ul>
+      <li><b>6:30 AM:</b> Warm water + honey, almonds, walnuts</li>
+      <li><b>8:00 AM:</b> 4 egg whites + 2 whole eggs OR paneer, 2 bread slices, banana shake</li>
+      <li><b>11:00 AM:</b> Yogurt + granola + nuts</li>
+      <li><b>1:30 PM:</b> Rice/roti, dal, 150–200g chicken/fish OR 100g paneer, veggies</li>
+      <li><b>4:30 PM:</b> Protein shake + fruit</li>
+      <li><b>6:00 PM:</b> Brown bread + peanut butter, 2 dates (Pre-Workout)</li>
+      <li><b>7:30 PM:</b> Whey protein + 1 banana (Post-Workout)</li>
+      <li><b>9:00 PM:</b> Chicken/fish/paneer + sweet potato + salad</li>
+    </ul>
+    <p><b>Precautions:</b> Eat every 3 hours, avoid junk, get 7–8 hours sleep.</p>
+  </section>
+
+  <section id="balanced" class="diet-card tab-content">
+    <h2>🥘 Balanced Diet (Maintain)</h2>
+    <ul>
+      <li><b>6:30 AM:</b> Warm water, 4 almonds</li>
+      <li><b>8:00 AM:</b> 2 boiled eggs OR paneer + 2 chapatis</li>
+      <li><b>11:00 AM:</b> Seasonal fruit</li>
+      <li><b>1:00 PM:</b> Roti/rice, dal, sabzi, salad</li>
+      <li><b>4:30 PM:</b> Green tea + roasted chickpeas</li>
+      <li><b>8:00 PM:</b> Khichdi/roti, paneer/chicken/fish, salad</li>
+    </ul>
+    <p><b>Precautions:</b> Balanced meals, avoid overeating, stay hydrated.</p>
+  </section>
+</main>
+
+  <script src="api.js"></script>
+  <script src="diet.js"></script>
+</body>
+</html>

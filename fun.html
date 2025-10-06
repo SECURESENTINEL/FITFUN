@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FUN Section - FitFun </title>
+  <link rel="stylesheet" href="fun.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">
+      <div class="logo-icon">FF</div>
+                FitFun 
+            </div>
+    </div>
+    <div class="nav-actions">
+    <a href="dashboard.html" class="back-btn">⬅ Back</a>
+    <button id="logoutBtn" class="logout-btn">Logout</button>
+  </div>
+  </nav>
+
+  <!-- Main FUN Section -->
+  <div class="fun-container">
+    <h2> FUN Activities</h2>
+    <p>Select an activity below to explore places and join communities:</p>
+
+    <!-- Activities grid -->
+<div class="activities">
+  <button class="activity" data-activity="Dance classes near me">💃 Dance</button>
+  <button class="activity" data-activity="Gardening workshops near me">🌱 Gardening</button>
+  <button class="activity" data-activity="Comedy clubs near me">🎤 Standup Comedy</button>
+  <button class="activity" data-activity="Bowling alleys near me">🎳 Bowling</button>
+  <button class="activity" data-activity="Handicraft workshops near me">🎨 Handicrafts</button>
+  <button class="activity" data-activity="Book clubs near me">📚 Book Club</button>
+  <button class="activity" data-activity="Ice skating rinks near me">⛸ Ice Skating</button>
+  <button class="activity" data-activity="Hiking trails near me">🥾 Hiking</button>
+  <button class="activity" data-activity="Museums near me">🏛 Museum Tours</button>
+  <button class="activity" data-activity="Trampoline parks near me">🤸 Trampoline Parks</button>
+  <button class="activity" data-activity="Go karting near me">🏎 Karting</button>
+</div>
+
+<!-- Show selection -->
+<p id="selectedActivity">🔍 Select an activity above</p>
+
+<!-- Actions -->
+<div class="actions">
+  <button class="btn find">📍 Find Nearby Places</button>
+  <button class="btn meetup">🤝 Join Communities on Meetup</button>
+ 
+</div>
+</div>
+  <script src="api.js"></script>
+  <script src="fun.js"></script>
+</body>
+</html>

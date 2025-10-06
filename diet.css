@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: #fefcf8;
+}
+
+/* Navbar (same as fit.css) */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #222;
+  color: #fff;
+  padding: 12px 20px;
+}
+.logo {
+   display: flex;
+ align-items: center;
+ font-family: 'Orbitron', monospace;
+ font-weight: 900;
+ font-size: 1.8rem;
+ color: #00d4ff;
+ text-shadow: 0 0 10px rgba(0, 212, 255, 0.5);
+}
+.logo-icon {
+  width: 40px;
+   height: 40px;
+   margin-right: 10px;
+   background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1);
+   border-radius: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-weight: bold;
+   color: white;
+   font-size: 1.2rem;
+}
+.nav-actions { display: flex; gap: 12px; align-items: center; }
+.back-btn, .logout-btn { padding: 8px 14px; border-radius: 6px; color: white; font-weight: bold; text-decoration: none; border: none; cursor: pointer; }
+.back-btn { background: #3498db; }
+.back-btn:hover { background: #217dbb; }
+.logout-btn { background: #e74c3c; }
+.logout-btn:hover { background: #c0392b; }
+/* Diet Section */
+.container { max-width: 900px; margin: 20px auto; padding: 10px; }
+h1 { text-align: center; margin-bottom: 20px; }
+
+.diet-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 15px 0;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.diet-card h2 { margin-top: 0; color: #333; }
+.diet-card ul { padding-left: 20px; }
+.diet-card p { margin-top: 10px; font-size: 14px; color: #555; }
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.tab-btn {
+  padding: 10px 20px;
+  margin: 0 5px;
+  border: none;
+  background: #eee;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+.tab-btn.active {
+  background: #333;
+  color: white;
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
+

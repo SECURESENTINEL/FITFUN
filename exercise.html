@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercise Library - FitFun </title>
+  <link rel="stylesheet" href="exercise.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">
+      <span class="logo-icon">FF</span> FitFun 
+    </div>
+    <div class="nav-actions">
+      <a href="fit.html" class="back-btn">⬅ Back</a>
+      <button id="logoutBtn" class="logout-btn">Logout</button>
+    </div>
+  </nav>
+
+  <!-- Main Exercise Section -->
+  <main class="container">
+    <h1><i class="fa-solid fa-dumbbell"></i> Exercise Library</h1>
+
+    <!-- Strength -->
+    <h2 class="category-title">💪 Strength</h2>
+    <div class="exercise-grid">
+      <div class="exercise-card">
+        <i class="fa-solid fa-dumbbell icon"></i>
+        <h3>Push Ups</h3>
+        <p><b>Sets/Reps:</b> 3x12</p>
+        <p><b>Benefits:</b> Chest, shoulders, arms</p>
+        <p><b>Precautions:</b> Keep body straight</p>
+      </div>
+      <div class="exercise-card">
+        <i class="fa-solid fa-person-skiing-nordic icon"></i>
+        <h3>Squats</h3>
+        <p><b>Sets/Reps:</b> 4x10</p>
+        <p><b>Benefits:</b> Legs & glutes</p>
+        <p><b>Precautions:</b> Knees behind toes</p>
+      </div>
+      <div class="exercise-card">
+        <i class="fa-solid fa-weight-hanging icon"></i>
+        <h3>Deadlifts</h3>
+        <p><b>Sets/Reps:</b> 4x8</p>
+        <p><b>Benefits:</b> Back & hamstrings</p>
+        <p><b>Precautions:</b> Keep back straight</p>
+      </div>
+      <div class="exercise-card">
+        <i class="fa-solid fa-dumbbell icon"></i>
+        <h3>Bench Press</h3>
+        <p><b>Sets/Reps:</b> 4x10</p>
+        <p><b>Benefits:</b> Chest, triceps</p>
+        <p><b>Precautions:</b> Use spotter</p>
+      </div>
+      <div class="exercise-card">
+        <i class="fa-solid fa-hand-fist icon"></i>
+        <h3>Plank</h3>
+        <p><b>Duration:</b> 60 sec hold</p>
+        <p><b>Benefits:</b> Core strength</p>
+        <p><b>Precautions:</b> Keep hips aligned</p>
+      </div>
+    </div>
+
+    <!-- Cardio -->
+    <h2 class="category-title">🏃 Cardio</h2>
+    <div class="exercise-grid">
+      <div class="exercise-card">
+        <i class="fa-solid fa-person-running icon"></i>
+        <h3>Running</h3>
+        <p><b>Duration:</b> 20–30 min</p>
+        <p><b>Benefits:</b> Stamina & fat loss</p>
+        <p><b>Precautions:</b> Wear good shoes</p>
+      </div>
+      <div class="exercise-card">
+        <i class="fa-solid fa-bicycle icon"></i>
+        <h3>Cycling</h3>
+        <p><b>Duration:</b> 30–45 min</p>
+        <p><b>Benefits:</b> Legs & endurance</p>
+        <p><b>Precautions:</b> Seat adjustment</p>
+      </div>
+      <div class="exercise-card">
+        <i class="fa-solid fa-person-walking icon"></i>
+        <h3>Jump Rope</h3>
+        <p><b>Duration:</b> 10–15 min</p>
+        <p><b>Benefits:</b> Full-body cardio</p>
+        <p><b>Precautions:</b> Soft surface</p>
+      </div>
+      <div class="exercise-card">
+        <i class="fa-solid fa-person-swimming icon"></i>
+        <h3>Rowing</h3>
+        <p><b>Duration:</b> 20 min</p>
+        <p><b>Benefits:</b> Arms, back, stamina</p>
+        <p><b>Precautions:</b> Maintain posture</p>
+      </div>
+    </div>
+
+    <!-- Yoga -->
+    <h2 class="category-title">🧘 Yoga</h2>
+    <div class="exercise-grid">
+      <div class="exercise-card">
+        <i class="fa-solid fa-child icon"></i>
+        <h3>Sun Salutation</h3>
+        <p><b>Rounds:</b> 5</p>
+        <p><b>Benefits:</b> Flexibility, relaxation</p>
+        <p><b>Precautions:</b> Avoid with back pain</p>
+      </div>
+      <div class="exercise-card">
+        <i class="fa-solid fa-person-praying icon"></i>
+        <h3>Tree Pose</h3>
+        <p><b>Duration:</b> 30s each leg</p>
+        <p><b>Benefits:</b> Balance, focus</p>
+        <p><b>Precautions:</b> Use wall support</p>
+      </div>
+      <div class="exercise-card">
+        <i class="fa-solid fa-person icon"></i>
+        <h3>Child Pose</h3>
+        <p><b>Duration:</b> 1–2 min</p>
+        <p><b>Benefits:</b> Back relaxation</p>
+        <p><b>Precautions:</b> Avoid if knee injury</p>
+      </div>
+      <div class="exercise-card">
+        <i class="fa-solid fa-spa icon"></i>
+        <h3>Warrior Pose</h3>
+        <p><b>Duration:</b> 1 min hold</p>
+        <p><b>Benefits:</b> Strength & focus</p>
+        <p><b>Precautions:</b> Keep spine upright</p>
+      </div>
+    </div>
+
+    <!-- Pilates -->
+    <h2 class="category-title">🤸 Pilates</h2>
+    <div class="exercise-grid">
+      <div class="exercise-card">
+        <i class="fa-solid fa-dumbbell icon"></i>
+        <h3>The Hundred</h3>
+        <p><b>Reps:</b> 100 pumps</p>
+        <p><b>Benefits:</b> Core strength & breathing</p>
+        <p><b>Precautions:</b> Avoid if neck strain</p>
+      </div>
+      <div class="exercise-card">
+        <i class="fa-solid fa-person-biking icon"></i>
+        <h3>Single Leg Stretch</h3>
+        <p><b>Reps:</b> 10 each leg</p>
+        <p><b>Benefits:</b> Core stability</p>
+        <p><b>Precautions:</b> Engage abs</p>
+      </div>
+      <div class="exercise-card">
+        <i class="fa-solid fa-person-hiking icon"></i>
+        <h3>Roll-Up</h3>
+        <p><b>Reps:</b> 8–10</p>
+        <p><b>Benefits:</b> Flexibility & spine mobility</p>
+        <p><b>Precautions:</b> Slow controlled movement</p>
+      </div>
+      <div class="exercise-card">
+        <i class="fa-solid fa-circle icon"></i>
+        <h3>Leg Circles</h3>
+        <p><b>Reps:</b> 5 each side</p>
+        <p><b>Benefits:</b> Hip mobility</p>
+        <p><b>Precautions:</b> Keep core stable</p>
+      </div>
+    </div>
+
+    <!-- HIIT -->
+    <h2 class="category-title">⚡ HIIT</h2>
+    <div class="exercise-grid">
+      <div class="exercise-card">
+        <i class="fa-solid fa-bolt icon"></i>
+        <h3>Burpees</h3>
+        <p><b>Sets/Reps:</b> 3x12</p>
+        <p><b>Benefits:</b> Full-body workout</p>
+        <p><b>Precautions:</b> Keep core tight</p>
+      </div>
+      <div class="exercise-card">
+        <i class="fa-solid fa-person-rays icon"></i>
+        <h3>Mountain Climbers</h3>
+        <p><b>Sets/Reps:</b> 3x20</p>
+        <p><b>Benefits:</b> Core & cardio</p>
+        <p><b>Precautions:</b> Maintain rhythm</p>
+      </div>
+      <div class="exercise-card">
+        <i class="fa-solid fa-shoe-prints icon"></i>
+        <h3>Jump Squats</h3>
+        <p><b>Sets/Reps:</b> 3x15</p>
+        <p><b>Benefits:</b> Power & legs</p>
+        <p><b>Precautions:</b> Land softly</p>
+      </div>
+    </div>
+
+    <!-- Boxing -->
+    <h2 class="category-title">🥊 Boxing</h2>
+    <div class="exercise-grid">
+      <div class="exercise-card">
+        <i class="fa-solid fa-hand-fist icon"></i>
+        <h3>Shadow Boxing</h3>
+        <p><b>Rounds:</b> 3x2 min</p>
+        <p><b>Benefits:</b> Speed & technique</p>
+        <p><b>Precautions:</b> Keep guard up</p>
+      </div>
+      <div class="exercise-card">
+        <i class="fa-solid fa-box icon"></i>
+        <h3>Heavy Bag</h3>
+        <p><b>Rounds:</b> 3–5</p>
+        <p><b>Benefits:</b> Power & stamina</p>
+        <p><b>Precautions:</b> Wrap hands</p>
+      </div>
+      <div class="exercise-card">
+        <i class="fa-solid fa-stopwatch icon"></i>
+        <h3>Speed Bag</h3>
+        <p><b>Rounds:</b> 3x2 min</p>
+        <p><b>Benefits:</b> Coordination</p>
+        <p><b>Precautions:</b> Stay relaxed</p>
+      </div>
+    </div>
+
+    <!-- Swimming -->
+    <h2 class="category-title">🏊 Swimming</h2>
+    <div class="exercise-grid">
+      <div class="exercise-card">
+        <i class="fa-solid fa-water icon"></i>
+        <h3>Freestyle</h3>
+        <p><b>Duration:</b> 20 min</p>
+        <p><b>Benefits:</b> Full-body cardio</p>
+        <p><b>Precautions:</b> Controlled breathing</p>
+      </div>
+      <div class="exercise-card">
+        <i class="fa-solid fa-water-ladder icon"></i>
+        <h3>Backstroke</h3>
+        <p><b>Duration:</b> 10 min</p>
+        <p><b>Benefits:</b> Back & shoulders</p>
+        <p><b>Precautions:</b> Keep body flat</p>
+      </div>
+      <div class="exercise-card">
+        <i class="fa-solid fa-droplet icon"></i>
+        <h3>Breaststroke</h3>
+        <p><b>Duration:</b> 15 min</p>
+        <p><b>Benefits:</b> Chest & legs</p>
+        <p><b>Precautions:</b> Smooth movements</p>
+      </div>
+    </div>
+  </main>
+      <script src="api.js"></script>
+  <script src="exercise.js"></script>
+</body>
+</html>

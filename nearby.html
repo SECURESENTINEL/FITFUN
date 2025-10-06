@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Find Nearby Classes - FitFun </title>
+  <link rel="stylesheet" href="nearby.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">
+      <span class="logo-icon">FF</span> FitFun 
+    </div>
+    <div class="nav-actions">
+      <a href="fit.html" class="back-btn">⬅ Back</a>
+      <button id="logoutBtn" class="logout-btn">Logout</button>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="container">
+    <h1><i class="fa-solid fa-location-dot"></i> Find Nearby Classes</h1>
+    <p class="subtitle">Discover gyms, yoga, pilates, boxing, and swimming centers near you</p>
+
+    <div class="grid">
+      <div class="nearby-card">
+        <i class="fa-solid fa-dumbbell icon"></i>
+        <h2>Gyms</h2>
+        <button class="find-btn" data-type="gym">Find Near Me</button>
+      </div>
+
+      <div class="nearby-card">
+        <i class="fa-solid fa-spa icon"></i>
+        <h2>Yoga Studios</h2>
+        <button class="find-btn" data-type="yoga">Find Near Me</button>
+      </div>
+
+      <div class="nearby-card">
+        <i class="fa-solid fa-person-dots-from-line icon"></i>
+        <h2>Pilates Centers</h2>
+        <button class="find-btn" data-type="pilates">Find Near Me</button>
+      </div>
+
+      <div class="nearby-card">
+        <i class="fa-solid fa-hand-fist icon"></i>
+        <h2>Boxing Clubs</h2>
+        <button class="find-btn" data-type="boxing">Find Near Me</button>
+      </div>
+
+      <div class="nearby-card">
+        <i class="fa-solid fa-water icon"></i>
+        <h2>Swimming Pools</h2>
+        <button class="find-btn" data-type="swimming">Find Near Me</button>
+      </div>
+    </div>
+  </main>
+
+  <script src="nearby.js"></script>
+</body>
+</html>
